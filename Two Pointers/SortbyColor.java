@@ -1,6 +1,7 @@
 public class Solution {
 	public void sortColors(ArrayList<Integer> a) 
 	{
+		//Arraylist to check how many white/blue and red colors 
 	     ArrayList<Integer> colors=new ArrayList<Integer>();
          int red=0,blue=0,white=0;
            
